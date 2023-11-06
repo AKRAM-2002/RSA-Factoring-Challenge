@@ -25,7 +25,6 @@ Before you begin, it's recommended to read or watch the following resources to b
 
 **Task 0: Factorize All the Things!**
 
-- **Advanced**
 
 Factorize as many numbers as possible into a product of two smaller numbers. To accomplish this task, you need to follow these guidelines:
 
@@ -79,10 +78,8 @@ $ time ./factors tests/test00
 real    0m0.009s
 user    0m0.008s
 sys 0m0.001s
-
-[GitHub Repository: RSA-Factoring-Challenge](#)
-
-## Task 1: RSA Factoring Challenge
+```
+**Task 1: RSA Factoring Challenge**
 
 RSA Laboratories states that for each RSA number `n`, there exist prime numbers `p` and `q` such that `n = p × q`. The challenge is to find these two prime factors when you're given only `n`. This task is similar to Task 0, with some differences:
 
@@ -96,3 +93,4 @@ $ cat tests/rsa-1
 6
 $ ./rsa tests/rsa-1
 6=3*2
+```
